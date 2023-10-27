@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Noto+Sans+JP&display=swap');
+ 
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	background: #fffffe;
+	color: #333;
+	font-family: "Noto Sans Japanese", "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.6;
+	overflow-x: hidden;
+}
+
+body.m_fixed_sns {
+	padding-bottom: 75px;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+em,
+small,
+strong,
+sub,
+sup,
+mark,
+del,
+ins,
+strike,
+abbr,
+dfn,
+blockquote,
+q,
+cite,
+code,
+pre,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+div,
+section,
+article,
+main,
+aside,
+nav,
+header,
+hgroup,
+footer,
+img,
+figure,
+figcaption,
+address,
+time,
+audio,
+video,
+canvas,
+iframe,
+details,
+summary,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+a {
+	color: inherit;
+	outline: none;
+	text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: inherit;
+}
+
+img {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, sans-serif;
+	font-size: inherit;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+table {
+	border: 1px solid #eee;
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+	width: 100%;
+}
+
+th,
+td {
+	border: 1px solid #eee;
+	padding: 4px 6px;
+	text-align: left;
+	vertical-align: top;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote::after,
+blockquote::before,
+q::after,
+q::before {
+	content: "";
+	content: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+  *
+  *::before
+  *::after {
+    box-sizing: border-box;
+  }
+
+ [type="text"], textarea {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #707070;
+	box-shadow: none;
+	appearance: none;
+	border-radius: 0;
+	color: inherit;
+	font-family: inherit;
+	resize: none;
+}
